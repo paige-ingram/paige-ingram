@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 *{
     padding: 0;
     margin: 0;
 }
 .wrapper{
-    background: url("https://www.planetware.com/wpimages/2019/11/canada-british-columbia-vancouver-best-beaches-wreck-beach.jpg") no-repeat;
+    background: url("background.jpg") no-repeat;
     background-size: cover;
     height: 100vh;
 }
@@ -38,7 +39,7 @@
 }
 .navbar ul li a.active,
 .navbar ul li a:hover{
-    background: rgb(203, 245, 245);
+    background: #f7c9b6;
     border-radius: 2px;
 }
 .wrapper .center{
@@ -50,14 +51,19 @@
     user-select: none;
 }
 .center h1{
-    color:white;
+    color:black;
     font-size: 70px;
     font-weight: bold;
     width: 900px;
     text-align: center;
 }
+.h1:hover{  /* BROKEN: want to zoom in on name with hover*/
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
 .center h2{
-    color: white;
+    color: black;
     font-size: 40px;
     font-weight: bold;
     width: 885px;
@@ -72,18 +78,23 @@
     width: 150px;
     font-size: 18px;
     font-weight: bold;
-    color: black;
-    background:rgb(203, 245, 245);
-    border: 1px solid;
-    outline: none;
+    background: #549bad;
     cursor: pointer;
     border-radius: 10px;
     transition: .5s;
+    border: none;
 }
 .buttons .btn{
-    margin-left: 25px;
+    margin-left: 30px;
 
 }
 .buttons button:hover{
-    background:rgb(186, 204, 207);
+    -ms-transform: scale(1.25); 
+    -webkit-transform: scale(1.25); 
+    transform: scale(1.25); 
+}
+.about .container{ /* BROKEN: want to have background continue down webpage*/
+    background: url("background.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
