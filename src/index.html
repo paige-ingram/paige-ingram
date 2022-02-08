@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Paige Ingram Portfolio</title>
+</head>
+<body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo">PAIGE INGRAM</h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="static/tech-background.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Welcome</h2> 
+      <h3>To my portfolio.</h3>
+    </div>
+    <ul class="social">
+      <li><a href="https://github.com/paige-ingram"><img src="https://i.ibb.co/ck0qHf0/icons8-github-48.png"></a></li>
+      <li><a href="https://www.linkedin.com/in/paige--ingram/"><img src="https://i.ibb.co/2hnnmqy/icons8-linkedin-48.png"></a></li>
+      <li><a href="mailto: paigehingram@gmail.com"><img src="https://i.ibb.co/ThSFTrG/icons8-email-open-48.png"></a></li>
+      <li><a href="https://drive.google.com/file/d/1gzwo-5Iv1l_k0EfB1HKpPeq0V58hsrxc/view?ths=true"><img src="http://www.simpleimageresizer.com/_uploads/photos/7492bf9e/resume_2_48x48.png"></a></li>
+    </ul>
+    <div class="footer">
+      <h4>Designed & Built by Paige Ingram</h4>
+    </div>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="interests.html">Interests</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+  <script>
+    const menuToggle = document.querySelector(".toggle")
+    const showcase = document.querySelector(".showcase")
+
+    menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("active")
+        showcase.classList.toggle("active")
+    })
+</script>
+</body>
+</html>
