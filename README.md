@@ -25,7 +25,7 @@ ABOUT ME
 
 <div>
 <p align="left">
-Hello 👋, I'm Paige, a final-year software engineering student from the University of British Columbia. Since 2020, I have gained hands-on experience in software development from internships and developing custom projects in hackathons and on my own time.<br><br>
+Hello 👋, I'm Paige, a 4th year software engineering student from the University of British Columbia. Since 2020, I have gained hands-on experience in software development from internships and developing custom projects in hackathons and on my own time.<br><br>
 Through these experiences and my university courses, I have developed the following skills:<br>
 • <b>Programming Languages:</b> JavaScript, TypeScript, Python, C++, Java, and Ruby on Rails<br>
 • <b>Front-End:</b> HTML, CSS, React.js, and Next.js<br>
