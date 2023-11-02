@@ -1,7 +1,4 @@
 <div align="center" width="50">
-  
-![GitHub Header](https://iili.io/JdP8FNn.png)
-  
 <div align="center">
   
 <!--- a bit of vertical space & languages text --->
